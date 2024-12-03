@@ -116,7 +116,7 @@ options = WebDriverWait(driver, 10).until(
 
 # Zgjidhni opsionin e dëshiruar
 for option in options:
-    if "44088702 - KFC Toptani" in option.text:
+    if "355KKFCA02 - KFC Blloku" in option.text:
         option.click()
         break
     # Pritni disa sekonda për të parë rezultatin pas logimit
